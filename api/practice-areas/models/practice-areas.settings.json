@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "practice_areas",
+  "info": {
+    "name": "Practice Areas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "default": "Practice Areas"
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slides.slides",
+      "required": true
+    }
+  }
+}

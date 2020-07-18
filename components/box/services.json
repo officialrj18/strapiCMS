@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_box_services",
+  "info": {
+    "name": "services",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "sub_text": {
+      "type": "string"
+    },
+    "para": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

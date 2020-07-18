@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_project_projects",
+  "info": {
+    "name": "Project",
+    "icon": "cubes"
+  },
+  "options": {},
+  "attributes": {
+    "prj_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true,
+      "default": "Retail"
+    },
+    "prj_name": {
+      "type": "string",
+      "required": true
+    },
+    "about_prj": {
+      "type": "text",
+      "required": true
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slides.slides",
+      "required": true
+    }
+  }
+}

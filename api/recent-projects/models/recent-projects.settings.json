@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recent-projects",
+  "info": {
+    "name": "Recent Projects"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Project": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.project"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "name": "Service"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "sub_text": {
+      "type": "text",
+      "required": true
+    },
+    "about_company": {
+      "type": "component",
+      "repeatable": true,
+      "component": "box.services",
+      "max": 1,
+      "required": true
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "box.boxwithimage",
+      "required": true,
+      "max": 4
+    }
+  }
+}

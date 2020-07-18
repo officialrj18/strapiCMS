@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_box_boxes",
+  "info": {
+    "name": "box",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "architects",
+  "info": {
+    "name": "Architect"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "required": true
+    },
+    "about": {
+      "type": "text",
+      "required": true
+    },
+    "social_media_handles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social-media-handles.social-media-handles",
+      "required": true,
+      "max": 1
+    }
+  }
+}

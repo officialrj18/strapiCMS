@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_slides_slides",
+  "info": {
+    "name": "slides",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "awards",
+  "info": {
+    "name": "Awards"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "sub_title": {
+      "type": "string",
+      "required": true
+    },
+    "box": {
+      "type": "component",
+      "repeatable": true,
+      "component": "box.box",
+      "required": true,
+      "max": 3
+    }
+  }
+}

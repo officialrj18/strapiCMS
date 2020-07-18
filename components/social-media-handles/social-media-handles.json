@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_social_media_handles_social_media_handles",
+  "info": {
+    "name": "social media handles",
+    "icon": "wifi"
+  },
+  "options": {},
+  "attributes": {
+    "instagram": {
+      "type": "string",
+      "required": false
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    }
+  }
+}
