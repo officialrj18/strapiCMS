@@ -16,7 +16,7 @@ Icon
 ############################
 
 *~
-
+package-lock.json
 
 ############################
 # Windows
@@ -111,4 +111,3 @@ coverage
 exports
 .cache
 build
-package-lock.json
